@@ -1,12 +1,33 @@
-# Site settings
-title: somecode 
-email: 
-description: > # this means to ignore newlines until "baseurl:"
-    music and code
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://codybara.github.io" # the base hostname & protocol for your site
-twitter_username: 
-github_username: sayon 
+name: somecode 
+markdown: redcarpet
+pygments: true
+url: http://codybara.github.io
+paginate: 8
+description:    A blog about music and code.  
+intro: 
+logo:             
+disqus_shortname:
+# url: http://gotchacode.com
+#Comment out url when working locally to resolve base urls correctly
+#url:
 
-# Build settings
-markdown: kramdown
+# Owner/author information
+owner:
+  name:           codybara 
+  avatar:         
+  email:          
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:
+  github:
+  stackexchange:
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics:
+google_verify:
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Links to include in top navigation
+# For external links add external: true
