@@ -1,0 +1,12 @@
+# Site settings
+title: somecode 
+email: igorjirkov@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    music and code
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: interstellar_od 
+github_username: sayon 
+
+# Build settings
+markdown: kramdown
